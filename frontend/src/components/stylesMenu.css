@@ -1,0 +1,58 @@
+.navmenu {
+    --bs-scroll-height: 100px;
+}
+
+.header {
+    width: auto;
+    margin: 10px 0px;
+    background-color: #609aaa;
+
+}
+
+.logo {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.cuerpo {
+    margin: 50px 0;
+
+}
+
+header {
+    background: url(../imagen/imagen_header.jpeg) no-repeat center center;
+    background-size: cover;
+    color: #609aaa;
+    position: relative;
+    height: 420px;
+}
+
+
+header p {
+    color: #609aaa;
+    font-size: 19px;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+}
+
+.intro-text {
+    position: relative;
+    padding-top: 210px;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 50px;
+}
+
+.intro-text h1 {
+    font-size: 65px;
+    text-transform: uppercase;
+    color: #308aa3;
+    letter-spacing: 2px;
+}
+
+.toast-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
